@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PlayKey</string>
+    <string name="accessibility_service_name">PlayKey · teclas de volumen</string>
+    <string name="accessibility_service_description">Usa las teclas de volumen para cambiar la música de Spotify al mantenerlas presionadas. No lee el contenido de la pantalla.</string>
+    <string name="threshold_format">Mantén pulsado %1$d ms para cambiar de canción</string>
+    <string name="notification_status_on">Acceso a sesiones multimedia activado</string>
+    <string name="notification_status_off">Necesario para encontrar y controlar Spotify</string>
+    <string name="accessibility_status_on">Servicio de teclas activado</string>
+    <string name="accessibility_status_off">Necesario para detectar las teclas con la pantalla encendida</string>
+    <string name="screen_off_status_on">Control con pantalla apagada activo (Modo Bolsillo)</string>
+    <string name="screen_off_status_off">Requiere permiso ADB para capturar teclas con pantalla apagada</string>
+</resources>

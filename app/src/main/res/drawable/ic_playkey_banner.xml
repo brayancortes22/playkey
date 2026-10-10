@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="120dp"
+    android:viewportWidth="280"
+    android:viewportHeight="120">
+
+    <!-- Background pill with subtle border -->
+    <path
+        android:fillColor="#0D131F"
+        android:pathData="M16,0 L264,0 A16,16 0 0,1 280,16 L280,104 A16,16 0 0,1 264,120 L16,120 A16,16 0 0,1 0,104 L0,16 A16,16 0 0,1 16,0 Z" />
+
+    <!-- Center Spotify Glow Circle -->
+    <path
+        android:fillColor="#152438"
+        android:pathData="M140,60m-36,0a36,36 0,1,1 72,0a36,36 0,1,1 -72,0" />
+
+    <!-- Left Soundwaves (Volume Down / Prev Track) -->
+    <path
+        android:fillColor="#4DD7F5"
+        android:pathData="M60,45 L45,60 L60,75 Z" />
+    <path
+        android:fillColor="#4DD7F5"
+        android:pathData="M43,45 L38,45 L38,75 L43,75 Z" />
+    <path
+        android:fillColor="#243750"
+        android:pathData="M80,35 L84,35 L84,85 L80,85 Z" />
+    <path
+        android:fillColor="#2A4568"
+        android:pathData="M92,42 L96,42 L96,78 L92,78 Z" />
+
+    <!-- Center Vinyl / Note Icon -->
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M140,32 C124.54,32 112,44.54 112,60 C112,75.46 124.54,88 140,88 C155.46,88 168,75.46 168,60 C168,44.54 155.46,32 140,32 Z M140,38 C152.15,38 162,47.85 162,60 C162,72.15 152.15,82 140,82 C127.85,82 118,72.15 118,60 C118,47.85 127.85,38 140,38 Z" />
+    <!-- Music note in center -->
+    <path
+        android:fillColor="#1ED760"
+        android:pathData="M136,50 L146,47 L146,65 C144.5,64 142.5,64 140.5,65 C137.5,66.5 136,69 137,71.5 C138,73.5 140.5,74.5 143.5,73 C145.5,72 147,69.5 147,67 L147,52 L137,55 Z" />
+
+    <!-- Right Soundwaves (Volume Up / Next Track) -->
+    <path
+        android:fillColor="#2A4568"
+        android:pathData="M184,42 L188,42 L188,78 L184,78 Z" />
+    <path
+        android:fillColor="#243750"
+        android:pathData="M196,35 L200,35 L200,85 L196,85 Z" />
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M220,45 L235,60 L220,75 Z" />
+    <path
+        android:fillColor="#1DB954"
+        android:pathData="M237,45 L242,45 L242,75 L237,75 Z" />
+</vector>
